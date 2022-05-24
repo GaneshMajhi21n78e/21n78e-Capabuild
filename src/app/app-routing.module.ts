@@ -9,7 +9,12 @@ import { LoginComponent } from './page/login/login.component';
 import { HomeComponent } from './page/home/home.component';
 const routes: Routes = [
   {path:'', component:  HomeComponent },
-  {path:'about-us', component:AboutUsComponent}
+  {path:'about-us', component:AboutUsComponent},
+  {path:'advantage-capa',component:AdvantageCapaComponent},
+  {path:'contact-us',component:ContactUsComponent},
+  {path:'courses',component:CoursesComponent},
+  {path:'latest-news',component:LatestNewsComponent},
+  {path:'login',component:LoginComponent}
 ];
 
 @NgModule({

@@ -12,6 +12,7 @@ import { LatestNewsComponent } from './page/latest-news/latest-news.component';
 import { ContactUsComponent } from './page/contact-us/contact-us.component';
 import { LoginComponent } from './page/login/login.component';
 import { HomeComponent } from './page/home/home.component';
+import { WelcomeCapaComponent } from './components/welcome-capa/welcome-capa.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { HomeComponent } from './page/home/home.component';
     ContactUsComponent,
     LoginComponent,
     HomeComponent,
+    WelcomeCapaComponent,
   ],
   imports: [
     BrowserModule,
