@@ -5,12 +5,27 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HeaderCarouselComponent } from './components/header-carousel/header-carousel.component';
+import { AdvantageCapaComponent } from './page/advantage-capa/advantage-capa.component';
+import { CoursesComponent } from './page/courses/courses.component';
+import { AboutUsComponent } from './page/about-us/about-us.component';
+import { LatestNewsComponent } from './page/latest-news/latest-news.component';
+import { ContactUsComponent } from './page/contact-us/contact-us.component';
+import { LoginComponent } from './page/login/login.component';
+import { HomeComponent } from './page/home/home.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HeaderCarouselComponent
+    HeaderCarouselComponent,
+    AdvantageCapaComponent,
+    CoursesComponent,
+    AboutUsComponent,
+    LatestNewsComponent,
+    ContactUsComponent,
+    LoginComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
