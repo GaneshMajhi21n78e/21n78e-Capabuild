@@ -13,6 +13,10 @@ import { ContactUsComponent } from './page/contact-us/contact-us.component';
 import { LoginComponent } from './page/login/login.component';
 import { HomeComponent } from './page/home/home.component';
 import { WelcomeCapaComponent } from './components/welcome-capa/welcome-capa.component';
+import { MentorsComponent } from './components/mentors/mentors.component';
+import { HeadlinesComponent } from './components/headlines/headlines.component';
+import { GetInTouchComponent } from './components/get-in-touch/get-in-touch.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -28,6 +32,10 @@ import { WelcomeCapaComponent } from './components/welcome-capa/welcome-capa.com
     LoginComponent,
     HomeComponent,
     WelcomeCapaComponent,
+    MentorsComponent,
+    HeadlinesComponent,
+    GetInTouchComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
